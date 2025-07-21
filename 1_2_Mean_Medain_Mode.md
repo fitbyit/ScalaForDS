@@ -1,8 +1,9 @@
-# Scala for DS Practical 1.2
-## Calculate mean, median, and mode of a list of numbers in scala
-
+# Practical 2
+## Calculate mean, median, and mode of a list of numbers. Implement basic statistical calculations using Scala collections.
+---
 ### Code :
-```java
+
+```scala
 def mean(numbers: List[Double]): Double = {
   if numbers.isEmpty then Double.NaN
   else numbers.sum / numbers.length
