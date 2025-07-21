@@ -2,7 +2,7 @@
 ## Calculate mean, median, and mode of a list of numbers. Implement basic statistical calculations using Scala collections.
 ---
 ### Code :
-
+> Scala code snippet
 ```scala
 def mean(numbers: List[Double]): Double = {
   if numbers.isEmpty then Double.NaN
